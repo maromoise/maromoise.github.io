@@ -13,64 +13,7 @@ body {
 
 .btn-link {
   color: #f1494c;
-  font-size: 14px;
-  margin-top: 50px;
-  font-weight: 700;
-  display: block;
-  letter-spacing: 0.56px;
-  text-transform: uppercase;
-  background-color: transparent;
-  text-decoration: none;
-  outline: 0;
-}
-
-.btn-link span:nth-child(even),
-.btn-link span:nth-child(odd) {
-  transform: translateY(0);
-}
-
-.btn-link:hover {
-  color: #f1494c;
-}
-
-.btn-link span,
-.btn-link:hover span {
-  transition: all 0.35s ease;
-  display: inline-block;
-}
-
-.btn-link:hover span:nth-child(odd) {
-  transform: translateY(-5px);
-}
-
-.btn-link:hover span:nth-child(even) {
-  transform: translateY(5px);
-}
-
-.btn-link img {
-  margin-left: 10px;
-  vertical-align: middle;
-  border-style: none;
-  max-width: 100%;
-  height: auto;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Roboto:700");
-
-body {
-  font-family: Roboto, sans serif;
-  font-size: 16px;
-}
-
-.container_2 {
-  padding-right: 0;
-  padding-left: 50px;
-  margin-top: 75px;
-}
-
-.btn-link_2 {
-  color: #dbbb06;
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 50px;
   font-weight: 700;
   display: block;
