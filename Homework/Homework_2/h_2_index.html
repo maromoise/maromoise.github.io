@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>KeyPress</title>
+            <link rel="stylesheet" href="h_2_style.css">
+            <script src="h_2_app.js"></script>
+
+    </head>
+    <body>
+        <h1>Exercise 01: Basic Calculator</h1>
+        <h5>by: Moses</h5>
+
+        <script language="JavaScript">
+          
+                function addNum()
+                {
+                 num1=parseInt(document.frmadd.txt1.value);
+                 num2=parseInt(document.frmadd.txt2.value);
+                 num3=num1+num2;
+                 document.frmadd.txt3.value=num3;
+                }
+                function subNum()
+                {
+                 num1=parseInt(document.frmadd.txt1.value);
+                 num2=parseInt(document.frmadd.txt2.value);
+                 num3=num1-num2;
+                 document.frmadd.txt3.value=num3;
+                }
+                function mulNum()
+                {
+                 num1=parseInt(document.frmadd.txt1.value);
+                 num2=parseInt(document.frmadd.txt2.value);
+                 num3=num1*num2;
+                 document.frmadd.txt3.value=num3;
+                }
+                function divNum()
+                {
+                 num1=parseInt(document.frmadd.txt1.value);
+                 num2=parseInt(document.frmadd.txt2.value);
+                 num3=num1/num2;
+                 document.frmadd.txt3.value=num3;
+                }
+                </script></head><body>
+                <form name="frmadd">
+                
+                 Number 1<input type ="text" id="txt1" ><br>
+                 Number 2<input type ="text" id="txt2" ><br>
+                 Output.....<input type ="text" name="txt3" disabled><br><br>
+                 
+                 <input type="button" value="+" name"but1" onClick="addNum()">
+                 <input type="button" value="-" name"but2" onClick="subNum()">
+                 <input type="button" value="x" name"but3" onClick="mulNum()">
+                 <input type="button" value="/" name"but4" onClick="divNum()">
+                 <button onclick="document.getElementById('myInput').value = ''">Clear</button>
+                <br>
+                 <form action = "/cgi-bin/test.cgi" name = "myForm" onsubmit = "return(validate());">
+                  <table cellspacing = "2" cellpadding = "2" border = "1">
+                     
+                </table>
+            </form>
+        </body>
+    </body>
+</html>
