@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midterm</title>
+    <script src="mid_term.js"></script>
+    <link rel="stylesheet" type = "text/css" href="mid_term.css">
+</head>
+<body>
+    <div id="main">
+    <svg id="animation">
+        <rect width="90" height="70" y="10"></rect>
+        <text x="20" y="60" >MO</text>
+        <rect width="80" height="70" x="95" y="10"></rect>
+        <text x="100" y="60" >SES</text>
+    </svg><br>
+    <b>International Company</b>
+    
+    <h1>Product Information</h1>
+    <div id="box">
+        <div><b>Name&nbsp;&nbsp;</b> <input type="text" id="product_name" ></div>
+        <div id="text"><b>Price&nbsp;&nbsp;&nbsp;</b> <input type="text" id="product_price"></div>
+        <button id="save">save</button>
+    </div>
+</br>
+    <table>
+        <tr>
+            <th onclick="idClick()" id="ID">▼ ID</th> 
+            <th onclick="nameClick()" id="NAME">▼ Name</th>
+            <th onclick="priceClick()" id="PRICE">▼ Price</th>
+        </tr>
+        <tbody id="table">
+
+        </tbody>
+    </table>
+    <br><br>
+    <div id="copy"><b>&copy;2019. MOSES</b></div>
+    </div>
+</body>
+</html>
